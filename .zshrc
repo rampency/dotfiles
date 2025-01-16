@@ -115,3 +115,5 @@ alias refresh='cd /Documents/projects/refresh/sidelinewebmessaging-refresh'
 function killPort() {
   lsof -P | grep $1 | awk '{print $2}' | xargs kill -9
 }
+export PATH="/usr/local/bin/python3:$PATH"
+ssh-add ~/bitbucket_work
